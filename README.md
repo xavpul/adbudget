@@ -1,8 +1,5 @@
 # AdBudget
 
-[![CI](https://github.com/YOUR_USER/adbudget/actions/workflows/ci.yml/badge.svg)](https://github.com/YOUR_USER/adbudget/actions)  
-[![Coverage](https://img.shields.io/codecov/c/github/YOUR_USER/adbudget)](https://codecov.io/gh/YOUR_USER/adbudget)
-
 A minimal marketing-analytics demo: create/list ad campaigns (id, name, budget) via REST & GraphQL, with a React/Mantine form.
 
 Tech stack  
@@ -34,13 +31,12 @@ npm install
 npm run dev                            # :3000
 ```
 
-- REST docs ➝ http://localhost:8000/docs  
 - GraphQL IDE ➝ http://localhost:8000/graphql  
 - UI ➝ http://localhost:3000
 
 ## Env Variables
 
-Copy `backend/.env.example` → `backend/.env`:
+`backend/.env`:
 
 ```env
 DATABASE_URL=postgresql+asyncpg://postgres:postgres@db:5432/adbudget
