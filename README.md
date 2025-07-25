@@ -69,7 +69,6 @@ adbudget/
 ```
 
 ## Commands
-failed to solve: ghcr.io/astral-sh/uv:0.2-python3.11-bookworm-slim: failed to resolve source metadata for ghcr.io/astral-sh/uv:0.2-python3.11-bookworm-slim: ghcr.io/astral-sh/uv:0.2-python3.11-bookworm-slim: not found
 ```bash
 # Backend
 uv sync --all-extras
